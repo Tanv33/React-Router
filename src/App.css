@@ -1,20 +1,27 @@
-body{
-    height: 100vh;
-    width: 100vw;
-    background: url(https://github.com/Chensokheng/island/blob/master/public/assets/bg.jpg?raw=true) no-repeat center center fixed ;
-    background-size: cover;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap");
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url(https://github.com/Chensokheng/island/blob/master/public/assets/bg.jpg?raw=true)
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Nunito";
 }
 
-.title{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    right: 50%;
-    /* height: 100vh;
-    width: 100vw; */
-    color: white;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center;
-    align-items: center; */
+.title {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 1.4rem;
+  }
 }

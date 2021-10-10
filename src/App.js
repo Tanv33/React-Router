@@ -1,11 +1,6 @@
 import "./App.css";
 import React from "react";
-import {
-  Switch,
-  Route,
-  useHistory,
-  // Link
-} from "react-router-dom";
+import { Switch, Route, useHistory } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -13,11 +8,10 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 
 function App() {
   const history = useHistory();
+
   return (
     <>
       <div>
